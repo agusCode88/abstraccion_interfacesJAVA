@@ -1,4 +1,4 @@
-package cl.billeterapractica.poo.clases;
+package cl.billeterapractica.poo.clases.abstractas;
 
 /**
  * Esta es la superclase CuntaVirtual o Wallet

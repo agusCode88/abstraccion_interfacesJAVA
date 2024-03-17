@@ -1,6 +1,8 @@
-package cl.billeterapractica.poo.clases;
+package cl.billeterapractica.poo.clases.subclases;
 
-public class CuentaEnDolares extends CuentaVirtual{
+import cl.billeterapractica.poo.clases.abstractas.CuentaVirtual;
+
+public class CuentaEnDolares extends CuentaVirtual {
 
     private double VALOR_DOLAR = 966;
     double saldoEnDolares;

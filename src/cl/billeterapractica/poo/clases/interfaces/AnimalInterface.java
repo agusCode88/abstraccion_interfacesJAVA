@@ -1,4 +1,5 @@
-package cl.billeterapractica.poo.interfaces;
+package cl.billeterapractica.poo.clases.interfaces;
+
 
 public interface AnimalInterface {
     void moverse();

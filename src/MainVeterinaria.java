@@ -1,9 +1,8 @@
-import cl.billeterapractica.poo.clases.Gato;
-import cl.billeterapractica.poo.clases.Iguana;
-import cl.billeterapractica.poo.clases.Leon;
-import cl.billeterapractica.poo.clases.Perro;
-import cl.billeterapractica.poo.interfaces.AnimalInterface;
-import com.sun.source.tree.IfTree;
+import cl.billeterapractica.poo.clases.entidades.Gato;
+import cl.billeterapractica.poo.clases.entidades.Iguana;
+import cl.billeterapractica.poo.clases.entidades.Leon;
+import cl.billeterapractica.poo.clases.entidades.Perro;
+import cl.billeterapractica.poo.clases.interfaces.AnimalInterface;
 
 public class MainVeterinaria {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package cl.billeterapractica.poo.clases;
+package cl.billeterapractica.poo.clases.entidades;
 
-import cl.billeterapractica.poo.interfaces.AnimalInterface;
+import cl.billeterapractica.poo.clases.interfaces.AnimalInterface;
 
 public class Gato implements AnimalInterface {
 
