@@ -8,7 +8,7 @@ import com.sun.source.tree.IfTree;
 public class MainVeterinaria {
     public static void main(String[] args) {
 
-        AnimalInterface[] listaAnimalesZoologico = new AnimalInterface[4];
+        AnimalInterface[] listaAnimalesZoologico;
 
         Perro perro = new Perro();
         Gato gato = new Gato();
