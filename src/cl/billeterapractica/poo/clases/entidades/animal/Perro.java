@@ -1,6 +1,6 @@
-package cl.billeterapractica.poo.clases.entidades;
+package cl.billeterapractica.poo.clases.entidades.animal;
 
-import cl.billeterapractica.poo.clases.interfaces.AnimalInterface;
+import cl.billeterapractica.poo.clases.interfaces.animal.AnimalInterface;
 
 public class Perro implements AnimalInterface {
 

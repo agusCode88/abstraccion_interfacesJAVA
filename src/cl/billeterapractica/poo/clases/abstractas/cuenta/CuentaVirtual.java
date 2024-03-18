@@ -1,4 +1,6 @@
-package cl.billeterapractica.poo.clases.abstractas;
+package cl.billeterapractica.poo.clases.abstractas.cuenta;
+
+import cl.billeterapractica.poo.clases.entidades.usuario.UsuarioApp;
 
 /**
  * Esta es la superclase CuntaVirtual o Wallet
@@ -15,11 +17,19 @@ package cl.billeterapractica.poo.clases.abstractas;
  *
  */
 public abstract class CuentaVirtual {
+    protected double saldoCuenta;
+    protected UsuarioApp usuarioApp;
+
+    public CuentaVirtual(double saldoCuenta, UsuarioApp usuarioApp) {
+        this.saldoCuenta = saldoCuenta;
+        this.usuarioApp = usuarioApp;
+    }
 
     /**
      * Un método abstracto no puede tener un cuerpo,
      * el cuerpo del método lo implementa las clases hijas.
      *
      */
-    protected abstract double verificarDatos(double saldo);
+    protected abstract boolean verificarFondos();
+    protected abstract void mostrarBalance();
 }

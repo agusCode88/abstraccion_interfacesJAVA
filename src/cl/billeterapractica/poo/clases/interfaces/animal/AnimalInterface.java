@@ -1,4 +1,4 @@
-package cl.billeterapractica.poo.clases.interfaces;
+package cl.billeterapractica.poo.clases.interfaces.animal;
 
 
 public interface AnimalInterface {
